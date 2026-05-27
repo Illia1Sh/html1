@@ -5,104 +5,310 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Природа</title>
-     <link rel="icon" href="iconphoto.jpg" type="image/png">
+    <link rel="icon" href="photo/iconphoto.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header>
-        <h1 id="top">🌿 Природа</h1>
-        <p>Світ навколо нас</p>
+        <div id="webheader">
+            <h1 id="top">🌿 Природа 🌳</h1>
+            <p>Світ навколо нас</p>
+        </div>
     </header>
-
-    <hr>
-
+    <!--0000000000000000000000000000000000000000000000 НАВІГАЦІЯ 000000000000000000000000000000000000000000000000000000000-->
     <nav>
-        <h3>Навігація:</h3>
-        <ul>
-            <li><a href="#about">Що таке природа</a></li>
-            <li><a href="#importance">Значення природи</a></li>
-            <li><a href="#protect">Чому потрібно берегти</a></li>
-            <li><a href="#actions">Що може зробити людина</a></li>
-            <li><a href="#conclusion">Висновок</a></li>
-        </ul>
+        <div id="mainNavDiv">
+            <div id="divH3">
+                <h3>Навігація</h3>
+            </div>
+            <div id="divUl">
+                <ul>
+                    <li><a class="liC" href="#about">Що таке природа</a></li>
+                    <li><a class="liC" href="#table">Цікаві факти</a></li>
+                    <li><a class="liC" href="#protect">Чому потрібно берегти</a></li>
+                    <li><a class="liC" href="#form">Форма</a></li>
+                    <li><a class="liC" href="#actions">Що може зробити людина</a></li>
+                    <li><a class="liC" href="#kontrolnipitana">Контрольні питання</a></li>
+                    <li><a class="liC" href="#conclusion">Висновок</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-
+    <!--000000000000000000000000000000000000000000000 НАВІГАЦІЯ 0000000000000000000000000000000000000000000000000000000000-->
     <hr>
-
+    <!--000000000000000000000000000000000000000000000 ЩО ТАКЕ ПРИРОДА 0000000000000000000000000000000000000000000000000000000000-->
     <section id="about">
-        <h2>Що таке природа</h2>
-        <p>
-            <b>Природа</b> — це все, що нас оточує:
-            <i>ліси, річки, гори, тварини та рослини</i>.
-            Вона є <u>джерелом життя</u> для людини.
-        </p>
-
-         <a href="https://en.wikipedia.org/wiki/Tree" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Usamljeni_jasen_-_panoramio_%28cropped%29.jpg/250px-Usamljeni_jasen_-_panoramio_%28cropped%29.jpg"
-             alt="Ліс"
-             width="400">
-        </a>
-
-        <p><small>Автор зображення: Wikipedia</small></p>
+        <div id="avfull">
+            <div id="avpr">
+                <h2>Що ж таке природа?</h2>
+                <img src="photo/Zugpsitze_mountain.jpg" alt="Пейзаж">
+            </div>
+            <div id="avprtex">
+                <p>
+                    <b>Природа</b> — це все, що нас оточує:
+                    <i>ліси, річки, гори, тварини та рослини</i>.<br>
+                    Вона є <u>джерелом життя</u> для людини.
+                    Природа поділяється на <b>живу</b> і <b>неживу</b>. <br>
+                    До живої природи належать <i>тварини, рослини, гриби та мікроорганізми</i>. <br>
+                    Нежива природа включає <i>повітря, воду, ґрунт, сонце та каміння</i>. <br>
+                    Всі елементи природи <u>взаємопов’язані</u> між собою. <br>
+                    Якщо змінюється один компонент, це впливає на всю систему. <br>
+                    Природа забезпечує людину <b>їжею, водою, киснем і ресурсами</b>. <br>
+                    Без неї неможливе існування життя на Землі. <br>
+                    Тому дуже важливо <u>берегти природу</u> і не забруднювати навколишнє середовище.
+                </p>
+            </div>
+        </div>
     </section>
-
+    <!--00000000000000000000000000000000000000000000 ЩО ТАКЕ ПРИРОДА 00000000000000000000000000000000000000000000000000000000000-->
     <hr>
-
-    <section id="importance">
-        <h2>Значення природи</h2>
-        <p>
-            Людина отримує від природи <strong>повітря, воду та їжу</strong>.<br>
-            Тому важливо <u>берегти довкілля</u>.
-        </p>
-    </section>
-
-    <hr>
-
+    <!--0000000000000000000000000000000000000000 ЧОМУ ПОТРІБНО БЕРЕГТИ ПРИРОДУ 000000000000000000000000000000000000000000000000000000000000000-->
     <section id="protect">
-        <h3>Чому потрібно берегти природу</h3>
-        <ul>
-            <li>Вона дає кисень</li>
-            <li>Є домом для тварин</li>
-            <li>Дає ресурси</li>
-            <li>Робить світ красивим</li>
-        </ul>
+        <div id="chpbp">
+            <svg viewBox="0 50 500 150" preserveAspectRatio="xMidYMid meet">
+                <path id="curve" d="M 50 150 Q 250 20 450 150" fill="none" />
+                <text font-size="25" font-weight="bold" fill="none" stroke="dodgerblue" stroke-width="1.5">
+                    <textPath href="#curve" startOffset="50%" text-anchor="middle">
+                        Чому потрібно берегти природу
+                    </textPath>
+                </text>
+                <text font-size="25" font-weight="bold" fill="deepskyblue">
+                    <textPath href="#curve" startOffset="50%" text-anchor="middle">
+                        Чому потрібно берегти природу
+                    </textPath>
+                </text>
+            </svg>
+            <p>
+                ?
+            </p>
+        </div>
+        <div id="natureList">
+            <ul>
+                <li><span class="text">Вона дає кисень для життя</span> <span class="emoji">🌬️</span></li>
+                <li><span class="text">Є домом для мільйонів видів тварин</span> <span class="emoji">🐾</span></li>
+                <li><span class="text">Забезпечує людину водою</span> <span class="emoji">💧</span></li>
+                <li><span class="text">Дає природні ресурси</span> <span class="emoji">🪵🪨</span></li>
+                <li><span class="text">Регулює клімат планети</span> <span class="emoji">🌍</span></li>
+                <li><span class="text">Очищує повітря і ґрунт</span> <span class="emoji">🌱</span></li>
+                <li><span class="text">Робить світ красивим і гармонійним</span> <span class="emoji">🌄</span></li>
+                <li><span class="text">Підтримує баланс екосистем</span> <span class="emoji">⚖️</span></li>
+            </ul>
+        </div>
     </section>
-
+    <!--0000000000000000000000000000000000000000 ЧОМУ ПОТРІБНО БЕРЕГТИ ПРИРОДУ 000000000000000000000000000000000000000000000000000000000000000-->
+    <!--000000000000000000000000000000000000000000 ЩО МОЖЕ ЗРОБИТИ ЛЮДИНА 0000000000000000000000000000000000000000000000000000000000000-->
     <section id="actions">
-        <h3>Що може зробити людина</h3>
-        <ul>
-            <li>Не смітити</li>
-            <li>Саджати дерева</li>
-            <li>Економити воду</li>
-            <li>Дбати про тварин</li>
-        </ul>
+        <div id="chpbp2">
+            <p>?</p>
+            <svg viewBox="0 0 500 150" preserveAspectRatio="xMidYMid meet">
+                <path id="curve2" d="M 50 50 Q 250 180 450 50" fill="none" />
+                <text font-size="25" font-weight="bold" fill="none" stroke="forestgreen" stroke-width="1.5">
+                    <textPath href="#curve2" startOffset="50%" text-anchor="middle">
+                        Що може зробити людина
+                    </textPath>
+                </text>
+                <text font-size="25" font-weight="bold" fill="limegreen">
+                    <textPath href="#curve2" startOffset="50%" text-anchor="middle">
+                        Що може зробити людина
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+        <div id="natureActions">
+            <ul>
+                <li><span class="text">Не смітити</span> <span class="emoji">🗑️</span></li>
+                <li><span class="text">Саджати дерева</span> <span class="emoji">🌳</span></li>
+                <li><span class="text">Економити воду</span> <span class="emoji">💧</span></li>
+                <li><span class="text">Дбати про тварин</span> <span class="emoji">🐾</span></li>
 
-        <a href="https://en.wikipedia.org/wiki/Mountain" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/330px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
-                 alt="Гори"
-                 width="400">
-        </a>
-
-        <p><small>Автор зображення: Wikipedia</small></p>
+                <li><span class="text">Сортувати сміття</span> <span class="emoji">♻️</span></li>
+                <li><span class="text">Використовувати менше пластику</span> <span class="emoji">🧴</span></li>
+                <li><span class="text">Брати участь в прибираннях</span> <span class="emoji">🧤</span></li>
+                <li><span class="text">Поширювати екологічну свідомість</span> <span class="emoji">📢</span></li>
+            </ul>
+        </div>
+        </div>
     </section>
-
+    <!--000000000000000000000000000000000000000000 ЩО МОЖЕ ЗРОБИТИ ЛЮДИНА 0000000000000000000000000000000000000000000000000000000000000-->
     <hr>
-
+    <!--0000000000000000000000000000000000000000 ВИСНОВОК 000000000000000000000000000000000000000000000000000000000000000-->
     <section id="conclusion">
-        <h2>Висновок</h2>
-        <p>
-            <b>Природа</b> — це <em>великий скарб</em>, який потрібно
-            <u>захищати та поважати</u>.
-        </p>
+        <div id="visn">
+            <div id="visnl">
+                <h2>Висновок</h2>
+            </div>
+            <div id="visnr">
+                <p>
+                <p>
+                    <b>Природа</b> — це <i>дивовижний світ</i>, який оточує нас щодня:
+                    ліси, <u>річки</u>, гори, моря, тварини та <b>рослини</b>. <br>
+                    Вона є <u>джерелом життя</u> для людини, адже забезпечує нас
+                    <i>чистим повітрям</i>, водою та природними ресурсами. <br>
+                    Саме завдяки <b>природі</b> існує життя на нашій планеті,
+                    <br> А люди, тварини й рослини можуть <u>розвиватися</u> та існувати в гармонії. <br>
 
-        <p><a href="#top">⬆ Повернутися вгору</a></p>
+                    Природа не лише допомагає нам виживати, але й робить світ
+                    <i>красивим</i>, різноманітним та <b>неповторним</b>. <br>
+                    Тому дуже важливо <u>берегти навколишнє середовище</u>, <br>
+                    Дбати про чистоту та відповідально ставитися до нашої планети. <br>
+
+                    Кожна людина може зробити свій внесок:
+                    <b>не смітити</b>, економити ресурси, <br>
+                    <i>піклуватися про тварин</i> та допомагати природі. <br>
+                    Лише разом ми зможемо <u>зберегти її красу</u> для майбутніх поколінь 🌿
+                </p>
+                </p>
+            </div>
+        </div>
     </section>
-
+    <!--000000000000000000000000000000000000000000000 ВИСНОВОК 0000000000000000000000000000000000000000000000000000000000-->
     <hr>
-
+    <!-- Practic 3 -->
+    <!--0000000000000000000000000000000000000000000 ТАБЛІЦЯ/ФАКТИ 000000000000000000000000000000000000000000000000000000000000-->
+    <section id="table">
+        <div id="factsContainer">
+            <table id="factsTable">
+                <tr>
+                    <th class="th-main" colspan="2">
+                        Цікаві Факти 🌿
+                    </th>
+                </tr>
+                <tr>
+                    <td class="forest-title">
+                        Широколисті ліси
+                    </td>
+                    <td class="forest-text">
+                        Це біом, де переважають листяні дерева, які сезонно втрачають листя.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tropic-title">
+                        Вологі тропічні ліси
+                    </td>
+                    <td class="tropic-text">
+                        Займають лише близько 5% загальної площі поверхні Землі, хоча раніше було 12%.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mineral-title">
+                        Мінерали
+                    </td>
+                    <td class="mineral-text">
+                        Всього в світі вивчено і класифіковано близько 4000 видів різних мінералів.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="swamp-title">
+                        Болото Пантанал
+                    </td>
+                    <td class="swamp-text">
+                        Це найбільше болото у світі, площа становить близько 200 тис. км².
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!--0000000000000000000000000000000000000000000000 ТАБЛІЦЯ/ФАКТИ 000000000000000000000000000000000000000000000000000000000-->
+    <hr>
+    <!--0000000000000000000000000000000000000000000 ФОРМА 000000000000000000000000000000000000000000000000000000000000-->
+    <section id="form">
+        <div id="formContainer">
+            <form id="natureForm">
+                <h3>Форма</h3>
+                <input type="text" placeholder="Введи ім'я">
+                <input type="password" placeholder="Введи пароль">
+                <input type="email" placeholder="example@gmail.com">
+                <label>
+                    <input type="checkbox">
+                    Я погоджуюсь
+                </label>
+                <button type="submit">
+                    Відправити
+                </button>
+            </form>
+        </div>
+    </section>
+    <!--00000000000000000000000000000000000000000000 ФОРМА 00000000000000000000000000000000000000000000000000000000000-->
+    <!-- Practic 3 -->
+    <hr>
+    <!--000000000000000000000000000000000000000000 КОНТРОЛЬНІ ПИТАННЯ 0000000000000000000000000000000000000000000000000000000000000-->
+    <section id="kontrolnipitana">
+        <div id="ktpn">
+            <button onclick="document.getElementById('modal1').style.display='block'">
+                Контрольні Запитання 1
+            </button>
+        </div>
+        <div id="ktpn2">
+            <button onclick="document.getElementById('modal2').style.display='block'">
+                Контрольні Запитання 2
+            </button>
+        </div>
+        </div>
+        <div id="modal1" class="modal">
+            <ol>
+                <li>Форми використовуються для введення, збору та відправки даних користувача.</li>
+                <li>Основні атрибути тега &lt;form&gt; — action і method.</li>
+                <li>Тег &lt;input&gt; призначений для створення полів введення даних.</li>
+                <li>Основним атрибутом &lt;input&gt; є type, також часто використовується name.</li>
+                <li>&lt;input type="text"&gt; показує звичайний текст, а &lt;input type="password"&gt; приховує символи.
+                </li>
+                <li>&lt;input type="checkbox"&gt; має вигляд квадрата з галочкою.</li>
+                <li>&lt;input type="radio"&gt; має вигляд круглого перемикача.</li>
+                <li>&lt;textarea&gt; — це багаторядкове текстове поле.</li>
+                <li>Спадне меню створюється через теги &lt;select&gt; та &lt;option&gt;.</li>
+                <li>Атрибут multiple дозволяє увімкнути множинний вибір у спадному меню.</li>
+                <li>Форми в HTML використовуються для збору, введення та відправки даних користувача на сервер або для
+                    обробки за допомогою JavaScript.</li>
+                <li>Основними атрибутами тега &lt;form&gt; є action (адреса, куди надсилаються дані) та method (спосіб
+                    відправки даних, наприклад GET або POST).</li>
+                <li>Тег &lt;input&gt; використовується для створення різних полів введення даних у формах (текст,
+                    пароль, чекбокси, радіокнопки тощо).</li>
+                <li>Основним обов’язковим атрибутом &lt;input&gt; є type, який визначає тип поля, також часто
+                    використовується name для передачі даних.</li>
+                <li>&lt;input type="text"&gt; створює звичайне текстове поле для введення, а &lt;input
+                    type="password"&gt; приховує введені символи.</li>
+                <li>&lt;input type="checkbox"&gt; відображається як квадрат, який можна відмітити або зняти відмітку.
+                </li>
+                <li>&lt;input type="radio"&gt; відображається як круглий перемикач, який дозволяє обрати один варіант із
+                    групи.</li>
+                <li>&lt;textarea&gt; використовується для введення великого багаторядкового тексту, на відміну від
+                    &lt;input type="text"&gt;, який однорядковий.</li>
+                <li>Спадне меню створюється за допомогою тегів &lt;select&gt; та &lt;option&gt;, де користувач може
+                    обрати один або кілька варіантів.</li>
+                <li>Атрибут multiple дозволяє активувати множинний вибір у випадаючому списку &lt;select&gt;.</li>
+            </ol>
+            <button onclick="document.getElementById('modal1').style.display='none'">
+                Закрити
+            </button>
+        </div>
+        <div id="modal2" class="modal">
+            <ol>
+                <li>Таблицю зв’язаних стилів у документі підключають за допомогою тега &lt;link&gt; у секції
+                    &lt;head&gt;.</li>
+                <li>Внутрішній стиль тега — це стиль, який задається через атрибут style всередині елемента.</li>
+                <li>Селектор — це правило CSS для вибору елементів. Існують тегові, класові, id, групові та
+                    псевдоселектори.</li>
+                <li>Клас в CSS — це спосіб об’єднання елементів. Синтаксис: .name {}. В HTML задається через
+                    class="name".</li>
+                <li>Елемент може мати декілька класів, і декілька елементів можуть мати однаковий клас.</li>
+                <li>Ідентифікатор (id) — це унікальна назва елемента в HTML.</li>
+                <li>Елемент не може мати декілька id, і один id не повинен повторюватися на сторінці.</li>
+                <li>Клас можна використовувати багато разів, а id повинен бути унікальним і має більший пріоритет.</li>
+                <li>Групування селекторів дозволяє застосувати один стиль до кількох елементів одночасно.</li>
+                <li>Псевдоселектор — це селектор стану або частини елемента.</li>
+                <li>Для посилань використовують :link, :visited, :hover, :active.</li>
+                <li>:hover змінює стиль елемента при наведенні курсора.</li>
+                <li>Колір фону документа змінюють через background-color.</li>
+                <li>Межу додають через border, наприклад: border: 2px solid black.</li>
+            </ol>
+            <button onclick="document.getElementById('modal2').style.display='none'">
+                Закрити
+            </button>
+    </section>
+    <!--00000000000000000000000000000000000 КОНТРОЛЬНІ ПИТАНЯЯ 00000000000000000000000000000000000000000000000000000000000000000000-->
     <footer>
-        <p>© 2026 Моя сторінка про природу</p>
+        <p><a href="#top">⬆ Повернутися вгору</a></p>
         <p>
             <a href="https://uk.wikipedia.org/wiki/Екологія" target="_blank">
                 Дізнатися більше про екологію
